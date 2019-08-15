@@ -12,7 +12,7 @@ class Onibus extends Veiculo {
 
     }
 
-    //setters
+    //setters TODO
 
-    //getters
+    //getters TODO
 }

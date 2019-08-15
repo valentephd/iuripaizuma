@@ -9,10 +9,10 @@ class caminhao extends Veiculo {
     private $quantidadeEixo;
     
     public function __construct() {
-
+        
     }
 
-    //setters
+    //setters TODO
 
-    //getters
+    //getters TODO
 }

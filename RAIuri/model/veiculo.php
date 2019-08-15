@@ -29,8 +29,8 @@ abstract class Veiculo {
 
     abstract public function listarTodos();
 
-    //setters
+    //setters TODO
 
-    //getter
+    //getter TODO
 
 }
