@@ -1,3 +1,6 @@
+<?php
+require_once '../model/acesso.php';
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -9,5 +12,12 @@
 <body>
     <h1>SVC - Lista de Veículo</h1>
     <form action=""></form>
+
+    <br><br>
+    TESTE
+    <?php
+        $sql = "SELECT * FROM veiculo";
+        
+    ?>
 </body>
 </html>
