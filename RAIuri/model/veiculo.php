@@ -1,6 +1,6 @@
 <?php
 
-class Veiculo {
+abstract class Veiculo {
 
     private $pdo;
 
@@ -34,5 +34,3 @@ class Veiculo {
     //getter
 
 }
-
-?>
