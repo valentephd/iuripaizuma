@@ -22,17 +22,12 @@ class Veiculo {
         // Duvida: No modelo UML dado, o que seria o parametro dadosVeiculo do tipo string na entrada do metodo contrutor ?
     }
 
-    abstract public function inserir() {
+    // Obriga as classes que extende dessas a implementarem esses métodos.
+    abstract public function inserir();
 
-    }
+    abstract public function listarUm();
 
-    abstract public function listarUm() {
-        
-    }
-
-    abstract public function listarTodos() {
-
-    }
+    abstract public function listarTodos();
 
     //setters
 
