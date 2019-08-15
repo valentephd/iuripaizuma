@@ -15,9 +15,21 @@ require_once '../model/acesso.php';
 
     <br><br>
     TESTE
+    <br>
+    <pre>
     <?php
         $sql = "SELECT * FROM veiculo";
-        
+        $stmt = $pdo->query($sql);
+
+        if ($stmt->rowCount() > 0)
+        {
+            print_r($stmt->fetchAll());
+        }
+        else
+        {
+            echo "Não há veículos cadastrados!";
+        }
     ?>
+    </pre>
 </body>
 </html>
